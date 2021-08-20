@@ -12,7 +12,6 @@ function startRotate(event) {
     const halfHeight = cardItem.offsetHeight / 2;
     const halfWidth = cardItem.offsetWidth / 2;
     cardItem.style.transform = 'rotateX(' + -(event.offsetY - halfHeight) / 5 + 'deg) rotateY(' + (event.offsetX - halfWidth) / 5 + 'deg)';
-
 }
 
 function stopRotate(event) {
